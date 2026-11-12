@@ -1,0 +1,15 @@
+# Materiais locais; nao publicar segredos no template
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+*.p12
+*.log
+.vscode/.ropeproject
+__pycache__/
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
